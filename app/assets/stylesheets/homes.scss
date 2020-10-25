@@ -1,0 +1,55 @@
+.container {
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+#register-name {
+  margin-bottom: 20px;
+}
+
+#submit {
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.card {
+  display: inline;
+}
+
+#register-btn-wrap {
+  margin: 0 auto;
+}
+
+.one-register {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+#rooms-wrap {
+  display: grid;
+  grid-template-rows: 120px 120px 120px;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.register-in-room{
+  margin: 0px;
+  padding: 0px
+}
+
+.md-6 {
+  margin: 10px;
+}
+
+.room {
+  text-align: center;
+  border-radius: 5px;
+  font-size: large;
+  margin: 5px;
+}
+
