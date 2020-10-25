@@ -108,5 +108,6 @@ window.addEventListener("DOMContentLoaded", function(){
     register = document.getElementById("register-name").value;
     addingRegister(registers, register);
     addingRegisterBtn(registers);
+    document.getElementById("register-name").focus();
   });
 },false);
