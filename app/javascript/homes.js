@@ -81,7 +81,7 @@ window.addEventListener("DOMContentLoaded", function(){
       var room = document.getElementById("room"+roomNumber);
 
       var elm_register = document.createElement('p');
-      elm_register.textContent = register;
+      elm_register.textContent = register + "さん";
       elm_register.classList.add ("register-in-room");
       if(room == null){
         var randomNumber = Math.floor( Math.random() * (Math.floor(registers.length / 2)) ) ;
