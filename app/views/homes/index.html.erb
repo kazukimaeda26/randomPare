@@ -2,12 +2,13 @@
 <div class="container p-3">
   <h1 class="text-dark header">ペア組あぷり</h1>
   <div class="row">
-    <div class="col md-6">
-      <p>朝礼時のテーマ</p>
-      <%= @now %>
+    <div class="col md-6 card border-secondary pt-3 pb-3">
+      <p class="text-center">朝礼時のテーマ</p>
+      <p class="theme text-secondary font-weight-bold text-center"><%= @themeMor.content %></p>
     </div>
-    <div class="col md-6">
-      <p>夕礼時のテーマ</p>
+    <div class="col md-6 card border-secondary pt-3 pb-3">
+      <p class="text-center">夕礼時のテーマ</p>
+      <p class="theme text-secondary font-weight-bold text-center"><%= @themeEve.content %></p>
     </div>
   </div>
   <div class="row">
